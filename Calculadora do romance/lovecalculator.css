@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap');
+
+        h1, h2, h3{
+            font-family: "Srisakdi", system-ui;
+           
+        }
+
+        h1{
+            font-size: 60px;
+            color: white;
+        }
+
+        h2, h3{
+            font-size: 30px;
+        }
+
+        h1:hover{
+            color: red;
+         }
+
+         h2{
+            color: white;
+         }
+
+         h3 {
+        background: linear-gradient(to right, #fff 50%, red 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+
+
+         body{
+            background-image: url(https://i.pinimg.com/564x/f0/aa/7d/f0aa7d33afb956770684b3dfb557582d.jpg);
+         }
+         .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 50vh;
+            width: 50%;
+            background-color: #EF9595;
+            margin-left: 500px;
+            margin-top: 200px;
+         }
+
+         .container2{
+            display: inline-block;
+         }
+
+         .pessoa2, #pessoa {
+            width: 300px;
+            height: 30px;
+            border-radius: 30px;
+            border-color: #fff;
+         }
+
+         #confirmar{
+            width: 300px;
+            height: 30px;
+            border-radius: 30px;
+            background-color: rgb(241, 71, 71);
+            color: #fff;
+            border-color: #fff;
+            margin-top: 30px;
+         }
+         
+         img{
+            width: 300px;
+            position: absolute;
+         }
+
+         #terno{
+            margin-left: 70%;
+         }
+
+         #flor{
+            margin-right: 70%;
+         }
